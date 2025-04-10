@@ -4,7 +4,10 @@ import { ReactNode } from "react";
 import { redirect } from "next/navigation";
 
 import { isAuthenticated } from "@/lib/actions/auth.action";
-
+<body 
+  className="mona_sans_26ddce03-module__qDlOMW__className antialiased pattern"
+  suppressHydrationWarning={true}
+></body>
 const Layout = async ({ children }: { children: ReactNode }) => {
   const isUserAuthenticated = await isAuthenticated();
   if (!isUserAuthenticated) redirect("/sign-in");
