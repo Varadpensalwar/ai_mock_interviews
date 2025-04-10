@@ -1,1 +1,1 @@
-Link - https://ai-mock-interviews-ashy.vercel.app/
+link - https://ai-mock-interviews-ashy.vercel.app/
